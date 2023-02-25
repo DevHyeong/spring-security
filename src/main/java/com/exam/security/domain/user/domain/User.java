@@ -1,15 +1,19 @@
 package com.exam.security.domain.user.domain;
 
+import com.exam.security.domain.common.BaseEntity;
+import com.exam.security.domain.post.domain.Post;
 import lombok.Getter;
 import lombok.Setter;
 
 import javax.persistence.*;
 import java.time.LocalDateTime;
+import java.util.ArrayList;
+import java.util.List;
 
 @Getter
 @Setter
 @Entity
-public class User {
+public class User extends BaseEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
@@ -23,20 +27,5 @@ public class User {
 
     @Column(unique = true, nullable = false)
     private String nickname;
-
-    @Column(updatable = false, nullable = false)
-    private LocalDateTime createdAt;
-
-    private LocalDateTime updatedAt;
-
-    @PrePersist
-    public void prePersist() {
-        this.createdAt = LocalDateTime.now();
-    }
-
-    @PreUpdate
-    public void preUpdate(){
-        this.updatedAt = LocalDateTime.now();
-    }
 
 }
