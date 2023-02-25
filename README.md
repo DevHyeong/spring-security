@@ -27,4 +27,5 @@ Spring Security ? 버전이후 deprecated
 # 기술 스택
 - java 11
 - Spring boot
+- Spring JPA
 - mysql/h2
