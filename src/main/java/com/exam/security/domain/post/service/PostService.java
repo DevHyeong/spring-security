@@ -1,7 +1,7 @@
 package com.exam.security.domain.post.service;
 
 import com.exam.security.common.exception.PostNotFoundException;
-import com.exam.security.domain.post.domain.Post;
+import com.exam.security.domain.post.entity.Post;
 import com.exam.security.domain.post.repository.PostRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

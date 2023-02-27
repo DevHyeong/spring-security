@@ -1,6 +1,6 @@
 package com.exam.security.domain.user.service;
 
-import com.exam.security.domain.user.domain.User;
+import com.exam.security.domain.user.entity.User;
 import com.exam.security.domain.user.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.crypto.password.ShaPasswordEncoder;

@@ -1,7 +1,7 @@
 package com.exam.security.domain.post.repository;
 
-import com.exam.security.domain.post.domain.Post;
-import com.exam.security.domain.user.domain.User;
+import com.exam.security.domain.post.entity.Post;
+import com.exam.security.domain.user.entity.User;
 import com.exam.security.domain.user.repository.UserRepository;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,9 +1,9 @@
 package com.exam.security.domain.post.service;
 
 import com.exam.security.common.exception.PostNotFoundException;
-import com.exam.security.domain.post.domain.Post;
+import com.exam.security.domain.post.entity.Post;
 import com.exam.security.domain.post.repository.PostRepository;
-import com.exam.security.domain.user.domain.User;
+import com.exam.security.domain.user.entity.User;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.junit.runner.RunWith;
