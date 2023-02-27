@@ -1,9 +1,9 @@
-package com.exam.security.domain.post.domain;
+package com.exam.security.domain.post.entity;
 
 import com.exam.security.domain.common.BaseEntity;
-import com.exam.security.domain.post.domain.pk.PostPk;
-import com.exam.security.domain.user.domain.Role;
-import com.exam.security.domain.user.domain.User;
+import com.exam.security.domain.post.entity.pk.PostPk;
+import com.exam.security.domain.user.entity.Role;
+import com.exam.security.domain.user.entity.User;
 import lombok.Getter;
 import lombok.Setter;
 

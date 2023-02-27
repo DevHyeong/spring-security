@@ -1,4 +1,4 @@
-package com.exam.security.domain.user.domain;
+package com.exam.security.domain.user.entity;
 
 public enum Role {
     NORMAL,

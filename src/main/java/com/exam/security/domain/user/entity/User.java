@@ -1,14 +1,10 @@
-package com.exam.security.domain.user.domain;
+package com.exam.security.domain.user.entity;
 
 import com.exam.security.domain.common.BaseEntity;
-import com.exam.security.domain.post.domain.Post;
 import lombok.Getter;
 import lombok.Setter;
 
 import javax.persistence.*;
-import java.time.LocalDateTime;
-import java.util.ArrayList;
-import java.util.List;
 
 @Getter
 @Setter

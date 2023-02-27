@@ -1,4 +1,4 @@
-package com.exam.security.domain.post.domain.pk;
+package com.exam.security.domain.post.entity.pk;
 
 import javax.persistence.Column;
 import java.io.Serializable;
