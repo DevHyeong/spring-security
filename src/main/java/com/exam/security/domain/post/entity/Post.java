@@ -35,4 +35,11 @@ public class Post extends BaseEntity {
     @Column(name = "grade")
     private Role role;
 
+    public Post(){
+
+    }
+    public Post(Long id){
+        this.id = id;
+    }
+
 }
