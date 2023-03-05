@@ -1,9 +1,8 @@
 # 인증 및 권한 프로그래밍 연습(feat. spring-security)
 
 
-Spring Security ? 버전이후 deprecated
-
-
+WebSecurityConfigurerAdapter is deprecated and component based is recommended after Spring Security 5.7.x version.
+(https://spring.io/blog/2022/02/21/spring-security-without-the-websecurityconfigureradapter?fbclid=IwAR0O_hxo8fo8xlJHqn55LS9kk2D9Z2GpSsjQfdL9b7axmzoatp_ZDwBALz8#ldap-authentication)
 
 인증 처리
 - BasicAuthenticationFilter
@@ -29,3 +28,5 @@ Spring Security ? 버전이후 deprecated
 - Spring boot
 - Spring JPA
 - mysql/h2
+
+
