@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service;
 public class UserService {
 
     private final UserRepository userRepository;
-    private final ShaPasswordEncoder shaPasswordEncoder;
+    private final ShaPasswordEncoder shaPasswordEncoder = new ShaPasswordEncoder("SHA-256");;
 
     public User join(User user){
         user.setPassword(shaPasswordEncoder.encode(user.getEmail(), user.getPassword()));
