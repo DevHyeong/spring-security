@@ -2,7 +2,7 @@
 
 
 WebSecurityConfigurerAdapter is deprecated and component based is recommended after Spring Security 5.7.x version.
-
+(https://spring.io/blog/2022/02/21/spring-security-without-the-websecurityconfigureradapter?fbclid=IwAR0O_hxo8fo8xlJHqn55LS9kk2D9Z2GpSsjQfdL9b7axmzoatp_ZDwBALz8#ldap-authentication)
 
 인증 처리
 - BasicAuthenticationFilter
@@ -28,3 +28,5 @@ WebSecurityConfigurerAdapter is deprecated and component based is recommended af
 - Spring boot
 - Spring JPA
 - mysql/h2
+
+
