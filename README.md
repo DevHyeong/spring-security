@@ -1,8 +1,7 @@
 # 인증 및 권한 프로그래밍 연습(feat. spring-security)
 
 
-Spring Security ? 버전이후 deprecated
-
+WebSecurityConfigurerAdapter is deprecated and component based is recommended after Spring Security 5.7.x version.
 
 
 인증 처리
