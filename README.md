@@ -14,6 +14,8 @@ WebSecurityConfigurerAdapter is deprecated and component based is recommended af
 
 
 
+
+
 # 주요 기능 (ver.1.0)
 - Like youtube
 - 사용자는 본인 채널의 관리자이지만 다른 사용자의 회원일수도 있다. 
@@ -24,6 +26,10 @@ WebSecurityConfigurerAdapter is deprecated and component based is recommended af
 
 
 # 기술 스택
+Front-end
+- ReactJs
+
+Back-end
 - java 11
 - Spring boot
 - Spring JPA
